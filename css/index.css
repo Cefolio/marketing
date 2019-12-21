@@ -126,8 +126,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
 body {
-  width: 1200px;
+  width: 1400px;
   margin: 0 auto;
   background-color: #F1F0EB;
   color: #565550;
@@ -189,6 +190,7 @@ nav a {
   margin: 10px auto;
   width: 80%;
 }
+
 .feature-content {
   display: flex;
   flex-flow: row wrap;
@@ -218,3 +220,4 @@ nav a {
   border: 2px solid #4056A1;
   background-color: #c5cbe3;
 }
+
