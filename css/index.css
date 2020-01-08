@@ -160,9 +160,6 @@ p {
   height: auto;
   align-self: center;
 }
-footer {
-  background-color: #efe2ba;
-}
 nav {
   display: flex;
   justify-content: space-between;
@@ -181,18 +178,21 @@ nav button {
   width: 25%;
   border-radius: 12px;
 }
-.header {
+.about-header {
   padding: 60px;
   text-align: center;
+  background-color: red;
 }
-.header .about-img {
+.about-header .about-img {
   width: 100%;
+  height: auto;
 }
 * {
   box-sizing: border-box;
 }
 body {
-  width: 90%;
+  width: 100%;
+  margin: 0;
 }
 h3 {
   text-align: center;
@@ -233,4 +233,7 @@ h3 {
 }
 .who-we-are .team .team-info .links img {
   height: 35px;
+}
+footer {
+  background-color: #efe2ba;
 }
