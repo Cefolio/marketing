@@ -136,10 +136,20 @@ a {
   color: black;
   font-size: large;
 }
-h1 {
+html,
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+h1,
+h2 {
   text-align: center;
   padding: 10px;
   font-size: xx-large;
+  font-family: "Lakki Reddy", cursive;
+}
+h3 {
+  padding: 10px;
+  font-family: "Lakki Reddy", cursive;
 }
 p {
   padding: 30px;
@@ -152,14 +162,14 @@ p {
 footer {
   background-color: #efe2ba;
 }
-#about-nav nav {
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 15px 50px 20px 50px;
   margin-bottom: 10px;
 }
-#about-nav nav button {
+nav button {
   text-decoration: none;
   color: #c5cbe3;
   text-align: center;
@@ -169,4 +179,11 @@ footer {
   padding: 10px;
   width: 25%;
   border-radius: 12px;
+}
+.header {
+  padding: 60px;
+  text-align: center;
+}
+body {
+  width: 100%;
 }
