@@ -133,6 +133,11 @@ body {
   color: #565550;
   font-family: "Source Sans Pro", sans-serif;
 }
+@media (max-width: 500px) {
+  body {
+    width: 100%;
+  }
+}
 h1 {
   text-align: center;
   padding: 10px;
@@ -153,34 +158,36 @@ footer {
 nav {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: 15px 50px 20px 50px;
+  padding: 20px 50px 20px 50px;
   margin-bottom: 10px;
 }
 nav button {
   text-decoration: none;
   color: #c5cbe3;
-  font-size: large;
+  font-size: x-large;
   border: 3px solid #D79922;
   background-color: #4056a1;
   padding: 10px;
-  width: 25%;
+  width: 30%;
   border-radius: 12px;
 }
-.top-image {
+.main {
   position: relative;
   text-align: center;
-  color: #c5cbe3;
+}
+.main h1 {
+  font-size: 75px;
+}
+@media (max-width: 500px) {
+  .main h1 {
+    font-size: 50px;
+  }
 }
 .centered {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -230%);
-  color: #565550;
-  text-align: center;
-  font-size: 85px;
-  text-shadow: 1px -1px 0 #767676, -1px 2px 1px #737272, -2px 4px 1px #767474, -3px 6px 1px #787777, -4px 8px 1px #7b7a7a;
+  transform: translate(-50%, -75%);
 }
 .reg-content {
   display: flex;
@@ -207,10 +214,21 @@ nav button {
   border-radius: 12px;
   align-self: center;
 }
+@media (max-width: 500px) {
+  .reg-content button {
+    width: 75%;
+  }
+}
 .text-container {
   align-self: center;
   width: 80%;
   margin: auto;
+}
+@media (max-width: 500px) {
+  .text-container {
+    width: 95%;
+    padding: 5px;
+  }
 }
 .feature-content {
   display: flex;
@@ -219,6 +237,14 @@ nav button {
   width: 100%;
   margin-top: 20px;
 }
+@media (max-width: 500px) {
+  .feature-content {
+    flex-flow: column;
+    align-content: center;
+    justify-content: center;
+    margin: 10px auto;
+  }
+}
 .feature {
   width: 43%;
   height: 400px;
@@ -226,11 +252,22 @@ nav button {
   color: #c5cbe3;
   border-radius: 12px;
 }
+@media (max-width: 500px) {
+  .feature {
+    width: 85%;
+    margin: 3% auto;
+  }
+}
 .card-row {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
   border-top: 2px dashed #4056A1;
+}
+@media (max-width: 500px) {
+  .card-row {
+    flex-flow: column;
+  }
 }
 .card {
   width: 18%;
@@ -241,6 +278,14 @@ nav button {
   border-radius: 12px;
   display: flex;
   flex-flow: column;
+}
+@media (max-width: 500px) {
+  .card {
+    width: 80%;
+    height: 500px;
+    justify-self: center;
+    margin: 3% auto;
+  }
 }
 .card img {
   border-radius: 12px;
