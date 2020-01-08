@@ -149,7 +149,8 @@ h2 {
 }
 h3 {
   padding: 10px;
-  font-family: "Lakki Reddy", cursive;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.25rem;
 }
 p {
   padding: 30px;
@@ -184,6 +185,52 @@ nav button {
   padding: 60px;
   text-align: center;
 }
-body {
+.header .about-img {
   width: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 90%;
+}
+h3 {
+  text-align: center;
+}
+.who-we-are {
+  display: flex;
+  flex-wrap: wrap;
+}
+.who-we-are .team {
+  display: inline-block;
+  margin: 20px;
+  padding: 0 25px;
+  height: 150px;
+  width: 490px;
+  font-size: 16px;
+  border-radius: 100px;
+  background-color: #d79922;
+}
+.who-we-are .team .team-img {
+  float: left;
+  margin: 0 10px 0 -25px;
+  height: 150px;
+  border-radius: 50%;
+}
+.who-we-are .team .team-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 150px;
+}
+.who-we-are .team .team-info p {
+  padding: 5px;
+}
+.who-we-are .team .team-info .links {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 25px;
+}
+.who-we-are .team .team-info .links img {
+  height: 35px;
 }
