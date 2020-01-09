@@ -2,6 +2,32 @@
 
 footer {
   width: 100%;
-  background-color: #efe2ba;
+  height: 8vh;
+  background-color: @footer-bg;
+  text-decoration: none;
   color: @footer-text;
+  text-align: center;
+
+  nav {
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    padding: 1.5rem;
+    font-size: 1rem;
+
+    a {
+      color: @footer-text;
+      //   background-color: red;
+      //   font-size: 1.6rem;
+      text-decoration: none;
+
+      &:hover {
+        color: #d79922;
+        font-size: 1.6rem;
+      }
+    }
+  }
+  p {
+    color: @footer-bg;
+  }
 }
