@@ -8,9 +8,33 @@ body {
   color: @text-color;
 }
 
-.statement h3 {
-  text-align: center;
-  font-size: x-large;
+.statement {
+  h3 {
+    text-align: center;
+    font-size: x-large;
+  }
+}
+
+@media @tablet {
+  .statement {
+    h1,
+    h3 {
+      font-size: 1.5rem;
+    }
+    // h3 {
+    //   font-size: large;
+    // }
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+@media @mobile {
+  .statement {
+    h3 {
+      font-size: 1.25rem;
+    }
+  }
 }
 
 .who-we-are {

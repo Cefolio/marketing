@@ -127,7 +127,7 @@ table {
   border-spacing: 0;
 }
 body {
-  width: 1200px;
+  width: 80%;
   margin: 0 auto;
   background-color: #f1f0eb;
 }
@@ -159,32 +159,38 @@ p {
 nav {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: 15px 50px 20px 50px;
+  padding: 20px 50px 20px 50px;
   margin-bottom: 10px;
 }
 nav button {
   text-decoration: none;
   color: #c5cbe3;
-  text-align: center;
-  font-size: large;
+  font-size: x-large;
   border: 3px solid #d79922;
   background-color: #4056a1;
   padding: 10px;
-  width: 25%;
+  width: 30%;
   border-radius: 12px;
+}
+nav button:hover {
+  background-color: #232f58;
 }
 .about-header {
   padding: 60px;
   text-align: center;
 }
 .about-header .about-img {
-  max-width: 100%;
-  height: auto;
+  width: 100%;
+  max-height: auto;
   border-radius: 12px;
   border: 2px solid #f13c20;
   padding: 5px;
   box-shadow: 10px 10px 5px grey;
+}
+@media screen and (max-width: 700px) {
+  .about-header {
+    padding: 0;
+  }
 }
 * {
   box-sizing: border-box;
@@ -197,6 +203,20 @@ body {
 .statement h3 {
   text-align: center;
   font-size: x-large;
+}
+@media screen and (max-width: 700px) {
+  .statement h1,
+  .statement h3 {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .statement h3 {
+    font-size: 1.25rem;
+  }
 }
 .who-we-are {
   display: flex;
@@ -245,7 +265,7 @@ footer {
   height: 8vh;
   background-color: #4056a1;
   text-decoration: none;
-  color: #4056a1;
+  color: #c5cbe3;
   text-align: center;
 }
 footer nav {
@@ -256,12 +276,11 @@ footer nav {
   font-size: 1rem;
 }
 footer nav a {
-  color: #4056a1;
+  color: #c5cbe3;
   text-decoration: none;
 }
 footer nav a:hover {
   color: #d79922;
-  font-size: 1.6rem;
 }
 footer p {
   color: #4056a1;
