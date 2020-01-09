@@ -218,11 +218,12 @@ body {
     font-size: 1.25rem;
   }
 }
-.who-we-are {
+.meet-the-team {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 }
-.who-we-are .team {
+.meet-the-team .team {
   display: inline-block;
   margin: 20px;
   padding: 0 25px;
@@ -232,7 +233,7 @@ body {
   border-radius: 100px;
   background-color: #d79922;
 }
-.who-we-are .team .team-img {
+.meet-the-team .team .team-img {
   float: left;
   margin: 0 10px 0 -25px;
   height: 150px;
@@ -240,21 +241,21 @@ body {
   border: 2px solid #f13c20;
   padding: 3px;
 }
-.who-we-are .team .team-info {
+.meet-the-team .team .team-info {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   height: 150px;
 }
-.who-we-are .team .team-info p {
+.meet-the-team .team .team-info p {
   padding: 5px;
 }
-.who-we-are .team .team-info .links {
+.meet-the-team .team .team-info .links {
   display: flex;
   justify-content: flex-end;
   margin-right: 25px;
 }
-.who-we-are .team .team-info .links img {
+.meet-the-team .team .team-info .links img {
   height: 35px;
 }
 @media screen and (max-width: 500px) {
