@@ -129,39 +129,42 @@ table {
 body {
   width: 80%;
   margin: 0 auto;
-  background-color: #F1F0EB;
-  color: #565550;
-  font-family: "Source Sans Pro", sans-serif;
+  background-color: #f1f0eb;
 }
 @media (max-width: 500px) {
   body {
     width: 100%;
   }
 }
-h1 {
-  text-align: center;
-  padding: 10px;
-  font-size: xx-large;
-  font-family: 'Lakki Reddy';
+html,
+body,
+p {
+  font-family: "Source Sans Pro", sans-serif;
 }
+h1,
 h2 {
   text-align: center;
   padding: 10px;
-  font-size: x-large;
+  font-size: xx-large;
+  font-family: "Lakki Reddy", cursive;
 }
-h4 {
-  text-align: center;
+h3 {
   padding: 10px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.25rem;
 }
 p {
-  padding: 10px;
+  padding: 30px;
 }
-footer {
-  background-color: #EFE2BA;
+.image {
+  width: 100%;
+  height: auto;
+  align-self: center;
 }
 nav {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 10px;
 }
 nav button {
   text-align: center;
@@ -225,6 +228,9 @@ nav button:hover {
   .reg-content button {
     width: 75%;
   }
+}
+.reg-content h2 {
+  font-family: "Source Sans Pro", sans-serif;
 }
 .text-container {
   align-self: center;
@@ -300,10 +306,14 @@ nav button:hover {
   max-height: 100%;
   margin: 10px 10px;
 }
+.card h2 {
+  font-size: 25px;
+}
 .card p {
-  width: 85%;
+  width: 80%;
   text-align: center;
-  margin-bottom: 5%;
+  margin: 5px auto;
+  padding: 0;
 }
 ul {
   margin: 20px auto;

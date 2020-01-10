@@ -1,38 +1,42 @@
-// GENERAL STYLES
+
+
 body {
     width: 80%;
     margin: 0 auto;
-    background-color: #F1F0EB;
-    color: #565550;
-    font-family: "Source Sans Pro", sans-serif;
+    background-color: @bg-color;
 
     @media @mobile {
-        width:100%;
-      }
-}
-
-h1 {
-   text-align: center;
-   padding: 10px;
-   font-size: xx-large;
-   font-family: 'Lakki Reddy';
-}
-
-h2 {
+                width:100%;
+               }
+  }
+  
+  html,
+  body,
+  p {
+    font-family: "Source Sans Pro", sans-serif;
+  }
+  
+  h1,
+  h2 {
     text-align: center;
     padding: 10px;
-    font-size: x-large;
-}
-h4{
-    text-align: center;
+    font-size: xx-large;
+    font-family: "Lakki Reddy", cursive;
+  }
+  
+  h3 {
     padding: 10px;
-}
-
-p {
-    padding: 10px;
-}
-
-footer {
-    background-color: #EFE2BA;
-}
-
+    font-family: @font-body;
+    font-size: 1.25rem;
+  }
+  
+  p {
+    padding: 30px;
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+    align-self: center;
+  }
+  
