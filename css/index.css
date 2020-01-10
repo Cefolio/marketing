@@ -180,6 +180,91 @@ nav button {
 nav button:hover {
   background-color: #232f58;
 }
+.about-header {
+  padding: 60px;
+  text-align: center;
+}
+.about-header .about-img {
+  width: 100%;
+  max-height: auto;
+  border-radius: 12px;
+  border: 2px solid #f13c20;
+  padding: 5px;
+  box-shadow: 10px 10px 5px grey;
+}
+@media screen and (max-width: 700px) {
+  .about-header {
+    padding: 2.5px;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  margin: 0;
+  color: #31312f;
+}
+.statement h3 {
+  text-align: center;
+  font-size: x-large;
+}
+@media screen and (max-width: 700px) {
+  .statement h1,
+  .statement h3 {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .statement h3 {
+    font-size: 1.25rem;
+  }
+}
+.meet-the-team {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.meet-the-team .team {
+  display: inline-block;
+  margin: 20px;
+  padding: 0 25px;
+  height: 150px;
+  width: 490px;
+  font-size: 16px;
+  border-radius: 100px;
+  background-color: #d79922;
+}
+.meet-the-team .team .team-img {
+  float: left;
+  margin: 0 10px 0 -25px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid #f13c20;
+  padding: 3px;
+}
+.meet-the-team .team .team-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 150px;
+}
+.meet-the-team .team .team-info p {
+  padding: 5px;
+}
+.meet-the-team .team .team-info .links {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 25px;
+}
+.meet-the-team .team .team-info .links img {
+  height: 35px;
+}
+@media screen and (max-width: 500px) {
+  font-size: 50px;
 .main {
   position: relative;
   text-align: center;
@@ -338,11 +423,11 @@ footer nav {
   font-size: 1rem;
 }
 footer nav a {
-  color: #C5CBE3;
+  color: #c5cbe3;
   text-decoration: none;
 }
 footer nav a:hover {
-  color: #D79922;
+  color: #d79922;
 }
 footer p {
   color: #4056a1;
