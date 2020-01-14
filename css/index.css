@@ -137,6 +137,7 @@ body {
 
 .hp_body {
  width: 80%;
+}
    @media (max-width: 500px) {
   body {
     width: 100%;
