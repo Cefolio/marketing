@@ -134,6 +134,11 @@ body {
     width: 100%;
   }
 }
+
+.hp_body {
+ width: 80%;  
+}   
+
 html,
 body,
 p {
