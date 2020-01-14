@@ -129,17 +129,14 @@ body {
   margin: 0 auto;
   background-color: #f1f0eb;
 }
-@media (max-width: 500px) {
-  body {
-    width: 100%;
-  }
-}
+
+
 
 .hp_body {
  width: 80%;
 }
    @media (max-width: 500px) {
-  body {
+  .hp_body {
     width: 100%;
   }
 }   
