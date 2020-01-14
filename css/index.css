@@ -124,6 +124,7 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
 body {
   width: 100%;
   margin: 0 auto;
@@ -135,11 +136,7 @@ body {
 .hp_body {
  width: 80%;
 }
-   @media (max-width: 500px) {
-  .hp_body {
-    width: 100%;
-  }
-}   
+
 
 html,
 body,
